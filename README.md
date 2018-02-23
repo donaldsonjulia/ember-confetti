@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ember-confetti
 [![Build Status](https://travis-ci.org/san650/ember-confetti.svg?branch=master)](https://travis-ci.org/san650/ember-confetti)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-confetti.svg)](https://emberobserver.com/addons/ember-confetti)
@@ -72,9 +73,17 @@ And place the container at `<body>` level.
 ```
 
 And that's it, now the parent container for the `confetti-rain` component will be the `<body>` tag.
+=======
+my-addon
+==============================================================================
 
-## Installation
+[Short description of the addon.]
+>>>>>>> 204e877... message
 
+Installation
+------------------------------------------------------------------------------
+
+<<<<<<< HEAD
 To install the addon just run
 
 ```
@@ -110,3 +119,47 @@ The confetti idea is based on Linmiao Xu's codepen http://codepen.io/linrock/pen
 ember-confetti is licensed under the MIT license.
 
 See [LICENSE](./LICENSE) for the full license text.
+=======
+```
+ember install my-addon
+```
+
+
+Usage
+------------------------------------------------------------------------------
+
+[Longer description of how to use the addon in apps.]
+
+
+Contributing
+------------------------------------------------------------------------------
+
+### Installation
+
+* `git clone <repository-url>`
+* `cd my-addon`
+* `npm install`
+
+### Linting
+
+* `npm run lint:js`
+* `npm run lint:js -- --fix`
+
+### Running tests
+
+* `ember test` – Runs the test suite on the current Ember version
+* `ember test --server` – Runs the test suite in "watch mode"
+* `npm test` – Runs `ember try:each` to test your addon against multiple Ember versions
+
+### Running the dummy application
+
+* `ember serve`
+* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
+
+For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).
+>>>>>>> 204e877... message
