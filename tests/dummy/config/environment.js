@@ -44,13 +44,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-<<<<<<< HEAD
     ENV.locationType = 'hash';
     ENV.rootURL = '/ember-confetti/';
-
-=======
-    // here you can enable a production-specific feature
->>>>>>> 204e877... message
   }
 
   return ENV;
